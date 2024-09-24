@@ -29,10 +29,6 @@ class Novel
     #[ORM\Column(nullable: true)]
     private ?string $imageName = null;
 
-    #[ORM\Column(nullable: true)]
-    private ?int $imageSize = null;
-
-
     #[ORM\Column(type: Types::TEXT)]
     private ?string $synopsis = null;
 
